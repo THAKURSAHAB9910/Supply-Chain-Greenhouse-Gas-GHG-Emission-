@@ -22,7 +22,7 @@ from sklearn.metrics import (
 sns.set(style="whitegrid")
 plt.rcParams["figure.figsize"] = (8,5)
 
-file_path = r"C:\Users\Vishe\Downloads\SupplyChainGHGEmissionFactors_v1.3.0_NAICS_CO2e_USD2022.csv"
+file_path = r"https://github.com/THAKURSAHAB9910/Supply-Chain-Greenhouse-Gas-GHG-Emission-/blob/main/SupplyChainGHGEmissionFactors_v1.3.0_NAICS_CO2e_USD2022.csv"
 df = pd.read_csv(file_path)
 df = df.dropna().reset_index(drop=True)
 
